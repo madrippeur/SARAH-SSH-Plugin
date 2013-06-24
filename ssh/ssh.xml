@@ -3,7 +3,7 @@
 	<tag>out.action=new Object(); </tag>
 	<item weight="2">Sarah</item>
 		<one-of>
-			<item>redemarre le R2D2<tag>out.action.cmd_bash="reboot.sh"</tag></item>
+			<item>redémarre le R2D2<tag>out.action.cmd_bash="reboot.sh"</tag></item>
 			<item>éteint le R2D2<tag>out.action.cmd_bash="halt.sh"</tag></item>
 		</one-of>
 		<tag>out.action._attributes.uri="http://127.0.0.1:8080/sarah/ssh";</tag>

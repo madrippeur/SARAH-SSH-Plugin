@@ -1,6 +1,6 @@
-﻿
-exports.action = function(data, callback, config, SARAH){
+﻿exports.action = function(data, callback, config, SARAH){
     var api_url;
+
     config = config.modules.ssh;
 
 	var exec = require('child_process').exec;
@@ -14,9 +14,10 @@ exports.action = function(data, callback, config, SARAH){
 	var process = '%CD%/plugins/ssh/bin/putty';
 
 	process += ' -ssh ' + user + '@' + ip + ' -P ' + port + ' -pw ' + pass + ' -m %CD%/plugins/ssh/bin/scripts/' + command + ' & exit &';
+	
 	console.log(process);
-	var child = exec(process,function (error, stdout, stderr) {""});
 
+	var child = exec(process,function (error, stdout, stderr) {""});
 	
 	callback({'tts': "tout de suite"}); 
 }
