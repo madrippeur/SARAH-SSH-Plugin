@@ -1,4 +1,4 @@
 SARAH-SSH-Plugin
 ================
 
-S.A.RA.H. SSH Plugin via Putty
+S.A.R.A.H. SSH Plugin via Putty
