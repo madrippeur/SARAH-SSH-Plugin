@@ -3,10 +3,16 @@
 		"ssh": {
 			"description": "Envoie de commande Bash via putty",
 			"version": "1.0",
+			"api_url_ssh_id": "1",	// ID du serveur
 			"api_url_ssh_ip": "[FIXME]",	// IP or HOSTNAME
 			"api_url_ssh_port": "[FIXME]",	// PORT (22 by default)
 			"api_url_ssh_user": "[FIXME]",	// USERNAME
 			"api_url_ssh_pass": "[FIXME]"	// PASSWORD
-    	}
+			"api_url_ssh_id": "2",	// ID du serveur
+			"api_url_ssh_ip": "[FIXME]",	// IP or HOSTNAME
+			"api_url_ssh_port": "[FIXME]",	// PORT (22 by default)
+			"api_url_ssh_user": "[FIXME]",	// USERNAME
+			"api_url_ssh_pass": "[FIXME]"	// PASSWORD
+		}
   	}
 }
